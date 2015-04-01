@@ -14,8 +14,7 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.mybatis</groupId>
@@ -237,7 +236,7 @@
   <scm>
     <url>http://github.com/mybatis/parent</url>
     <connection>scm:git:ssh://github.com/mybatis/parent.git</connection>
-    <developerConnection>scm:git:git+ssh://git@github.com/mybatis/parent.git</developerConnection>
+    <developerConnection>scm:git:ssh://git@github.com/mybatis/parent.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
   <issueManagement>
@@ -810,7 +809,7 @@
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
-        <version>0.7.4</version>
+        <version>0.7.4.201502262128</version>
       </plugin>
 
     </plugins>
@@ -998,7 +997,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore></ignore>
+                        <ignore />
                       </action>
                     </pluginExecution>
                     <pluginExecution>
